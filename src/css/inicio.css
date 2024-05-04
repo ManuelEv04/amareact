@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0F5A16;
+}
+
+
+
+header {
+    background-color: #333; 
+    color: #0F5A16;
+    height: 60px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 60px; 
+    height: auto;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+.container {
+    width: 1300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    background-color: #0F5A16;
+}
+
+.buttons {
+    margin-top: 100px; 
+    margin-right: 800px;
+    
+}
+
+.buttons button {
+    margin: 30px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: #158a21;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
+    border-top-left-radius: 25%;
+    border-color: #158a21;
+    letter-spacing: 3px;
+}
+
+.nosotros {
+    color: #fff;
+    background: linear-gradient(180deg, #6E359B 80%, #78469e 20%);
+}
+
+.nosotros:hover {
+    color: linear-gradient(180deg, #6E359B 80%, #78469e 20%); 
+    background: #0ce78c;
+}
+
+.productos {
+    color: #fff;
+    background: linear-gradient(180deg, #ffc107 80%, #f8cf54 20%);
+}
+.productos:hover {
+    color: linear-gradient(180deg, #ffc107 80%, #f8cf54 20%);
+    background: #0ce78c;
+}
+
+.cotizacion {
+    color: #fff;
+    background: linear-gradient(180deg, #1558BC 80%,#386ec0 20%);
+}
+.cotizacion:hover {
+    color: linear-gradient(180deg, #1558BC 80%,#386ec0 20%);
+    background: #0ce78c;
+}
+
+.publicidad {
+    margin-top: -35%; 
+    margin-right: 10px;
+}
+
+.image {
+    position: relative;
+    right: 0;
+    left: 32.3%;
+    bottom: 0;
+    top: 0px;
+    width: 500px; 
+    height: 528px; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+footer a {
+    position: relative;
+    color: #fff; 
+    text-decoration: none;
+    font-size: 24px;
+    top:-20px;
+}

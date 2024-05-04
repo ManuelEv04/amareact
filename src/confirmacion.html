@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmación de Compra</title>
+    <link rel="stylesheet" href="css/confirmacion.css">
+</head>
+<body>
+    <header>
+        <!-- Logo aquí -->
+        <img src="assets/amarte0.PNG" alt="marca" style="width: 50px;">
+        <!-- Menú de barra aquí -->
+        <img src="assets/logo.svg" alt="Logo" style="height: 50px;">
+    </header>    
+    <main>
+        
+        <div class="container-v">
+            <div class="menu-vertical">
+                <div class="form-floating">
+                    <input class="form-control" id="buscar" type="text"/>
+                    <label for="inputBuscar">Buscar</label>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="Inicio.html">INICIO</a></li>
+                    <li><a href="login.html">USUARIOS</a></li>
+                    <li><a href="catalogo.html">CATÁLOGO</a></li>
+                    <li><a href="cesta.html">CESTA DE COMPRA</a></li>
+                    <li><a href="confirmacion.html">CONFIRMACIÓN</a></li>
+                    <li><a href="notificacion.html">NOTIFICACIÓN</a></li>
+                    <li><a href="cotizacion.html">COTIZACIONES</a></li>
+                    <li><a href="Inicio.html">SALIR</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <aside class="publicidad">
+            <img src="assets/publ2.jpeg" alt="Pub1">
+            <img src="assets/publ3.jpeg" alt="Pub2">
+        </aside>
+    </main>
+    <button id="Confirmar" onclick="mostrarConfirmacion()">Confirmar compra</button>
+        <div id="overlay"></div>
+        <div id="modal">
+            <span id="closeBtn" onclick="cerrarModal()">&times;</span>
+            <h2>¡Compra Exitosa!</h2>
+            <p>Gracias por tu compra. Recibirás una confirmación por correo electrónico.</p>
+            <button onclick="cerrarModal()">Cerrar</button>
+        </div>  
+    <script src="js/confirmacion.js"></script>
+</body>
+</html>

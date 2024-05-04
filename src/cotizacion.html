@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización</title>
+    <link rel="stylesheet" href="css/confirmacion.css">
+    <style>
+        
+        /* Estilos para la barra de navegación */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        /* Estilos para el contenido de cotización */
+        .quote-content {
+            text-align: center;
+            width: 100%;
+            margin-left: 20%;
+        }
+
+        .quote-content p {
+            color: #fff;
+        }
+
+        /* Estilos para los botones */
+        .btn {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <img src="assets/amarte0.PNG" alt="marca" style="width: 50px;">
+        
+        <img src="assets/logo.svg" alt="Logo" style="height: 50px;">
+    </header>
+    <main>
+        <div class="container-v">
+            <div class="menu-vertical">
+                <div class="form-floating">
+                    <input class="form-control" id="buscar" type="text"/>
+                    <label for="inputBuscar">Buscar</label>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="Inicio.html">INICIO</a></li>
+                    <li><a href="login.html">USUARIOS</a></li>
+                    <li><a href="catalogo.html">CATÁLOGO</a></li>
+                    <li><a href="cesta.html">CESTA DE COMPRA</a></li>
+                    <li><a href="confirmacion.html">CONFIRMACIÓN</a></li>
+                    <li><a href="notificacion.html">NOTIFICACIÓN</a></li>
+                    <li><a href="cotizacion.html">COTIZACIONES</a></li>
+                    <li><a href="Inicio.html">SALIR</a></li>
+                </ul>
+            </div>
+        </div>
+        <aside class="publicidad">
+            <img src="assets/publ2.jpeg" alt="Pub1">
+            <img src="assets/publ3.jpeg" alt="Pub2">
+        </aside>    
+
+        <div class="quote-content">
+            <h1>Cotización</h1>
+            <p>Haz clic en el icono y sube tus archivos de requerimientos.</p>
+            <input type="file" accept=".pdf, .doc, .docx" id="fileInput" style="margin: 10px;"><br>
+            <input type="text" placeholder="Adjunta un enlace" style="margin: 10px;"><br>
+            <ul>
+                <li>
+                    <p>Cotización 1</p>
+                    <button class="btn" id="verCotizacionBtn">Ver Cotización</button>
+                    <button class="btn" id="hacerPedidoBtn">Hacer Pedido</button>
+                </li>
+                <li>
+                    <p>Cotización 2</p>
+                    <button class="btn" id="verCotizacionBtn">Ver Cotización</button>
+                    <button class="btn" id="hacerPedidoBtn">Hacer Pedido</button>
+                </li>
+                <li>
+                    <p>Cotización 3</p>
+                    <button class="btn" id="verCotizacionBtn">Ver Cotización</button>
+                    <button class="btn" id="hacerPedidoBtn">Hacer Pedido</button>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <div class="footer">
+        <img src="assets/amarte0.PNG" alt="marca" style="height: 100px;">
+    </div>
+</body>
+</html>

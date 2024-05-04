@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificación de Compra Exitosa</title>
+    <link rel="stylesheet" href="css/confirmacion.css">
+    <style>
+      
+
+        /* Estilos para la barra de navegación */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        /* Estilos para el cuadro de notificación */
+        .notification {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            margin-top: 150px;
+            padding: 15px;
+            display: block;
+            margin-left: 300px;
+            margin-right: 300px;
+        }
+
+        /* Estilos para el menú desplegable */
+        .sidebar {
+            width: 20%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        /* Estilos para la imagen publicitaria */
+        .advert {
+            width: 30%;
+            padding: 20px;
+        }
+
+        /* Estilos para el footer */
+        
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Logo aquí -->
+        <img src="assets/amarte0.PNG" alt="marca" style="width: 50px;">
+        <!-- Menú de barra aquí -->
+        <img src="assets/logo.svg" alt="Logo" style="height: 50px;">
+    </header>    
+    <main>
+        <div class="container-v">
+            <div class="menu-vertical">
+                <div class="form-floating">
+                    <input class="form-control" id="buscar" type="text"/>
+                    <label for="inputBuscar">Buscar</label>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="Inicio.html">INICIO</a></li>
+                    <li><a href="login.html">USUARIOS</a></li>
+                    <li><a href="catalogo.html">CATÁLOGO</a></li>
+                    <li><a href="cesta.html">CESTA DE COMPRA</a></li>
+                    <li><a href="confirmacion.html">CONFIRMACIÓN</a></li>
+                    <li><a href="notificacion.html">NOTIFICACIÓN</a></li>
+                    <li><a href="cotizacion.html">COTIZACIONES</a></li>
+                    <li><a href="Inicio.html">SALIR</a></li>
+                </ul>
+            </div>
+        </div>
+        <aside class="publicidad">
+            <img src="assets/publ2.jpeg" alt="Pub1">
+            <img src="assets/publ3.jpeg" alt="Pub2">
+        </aside>    
+
+        <div class="notification">
+            <p>Tu orden fue exitosa!!</p>
+            <p>Gracias por tu compra!</p>
+            <p>Tu orden número 133221</p>
+            <a href="enlace_para_descargar_orden">Descarga tu orden detallada</a>
+        </div>
+    </main>
+
+    <footer>
+        <img src="assets/amarte0.PNG" alt="marca" style="height: 100px;">
+    </footer>
+    
+</body>
+</html>

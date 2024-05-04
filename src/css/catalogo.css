@@ -1,0 +1,235 @@
+html{
+    height: 100%;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0F5A16;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left:0%;
+    max-width:100%;
+    height:3em;   
+    z-index: 99
+}
+
+header img {
+    max-height: 50px;
+
+}
+
+.container-v {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    padding: 5% 0%;
+    z-index: 99;    
+}
+
+.menu-vertical {
+    background-color: #333;
+    width: 280px;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.form-floating {
+    padding: 10px;
+    position: relative;
+}
+
+.form-control{
+    color: #ededf1;
+    background-color: #333;
+}
+  .form-floating > .form-control { 
+    height: calc(3.5rem + 2px);
+    line-height: 0.25;
+  }
+
+  .form-floating > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 1rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  } 
+  
+  @media (prefers-reduced-motion: reduce) {
+    .form-floating > label {
+      transition: none;
+    }
+  }
+  
+  .form-floating > .form-control {
+    padding: 0rem 2rem;
+  }
+   
+  .inputBuscar > .form-control{
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+  }
+
+.menu-he img {
+    width: 30px;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    padding: 15px 20px;
+    border-bottom: 1px solid #2F3D49;
+}
+
+.menu-list li:last-child {
+    border-bottom: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding:inherit;
+}
+
+.menu-list a:hover {
+    color: #fff;
+    font-weight: bold;
+    background: #4CAF50;
+}
+
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0 40%;
+}
+
+.menu li {
+    margin: 0 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos de interacción */
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para productos */
+h1, h2, h3{
+    text-align: center;
+    color: #fff;
+}
+
+.productos{
+    float: left;
+    width: 80%;
+       
+}
+
+.product-list {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin: 100px; 
+    float: right;
+    
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 40px;
+    text-align: center;
+    max-width: 300px;
+
+}
+
+.product img {
+    margin-top: 100px;
+    width: 300px;
+    height: 200px;
+}
+
+p,span{
+    color: #fff;
+}
+
+.add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.catalogo{
+    margin-left: -15%;
+    margin-top: -5%;
+}
+
+.publicidad{
+    display:block;
+    float: right;
+    width: 20%;
+}
+
+.publicidad img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

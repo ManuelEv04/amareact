@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+*.txt
+.env
+.sass-cache/
 
 # testing
 /coverage
